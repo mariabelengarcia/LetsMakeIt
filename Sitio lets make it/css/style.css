@@ -1,0 +1,278 @@
+body {
+  font-family: "Roboto", serif;
+  background-image: url("../img/img_header.png");
+  background-repeat: no-repeat;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+nav {
+  background-color: rgb(45 54 136 / 55%);
+}
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar a {
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  margin-right: 2rem;
+}
+
+.navbar a:hover,
+.navbar a:active,
+.navbar a:focus {
+  font-weight: 500;
+  color: #6ac8f1;
+}
+
+.navbar-toggler-icon {
+  color: #9ed8b0 !important;
+}
+
+.navbar-nav {
+  align-items: flex-end;
+}
+
+#header {
+  padding: 10rem 0;
+}
+
+#header img {
+  width: 45%;
+}
+
+#header h2 {
+  color: #fff;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-top: 3rem;
+  letter-spacing: 0.2rem;
+}
+
+#objetivos {
+  background: linear-gradient(to right, #6ac8f1, #4b529f);
+  text-align: center;
+  padding: 7rem 0;
+}
+
+#objetivos .row {
+  justify-content: space-between;
+  --bs-gutter-x: 0;
+}
+
+#objetivos img {
+  width: 40%;
+  margin: 2rem 0;
+}
+
+#objetivos h2 {
+  font-family: "Righteous", cursive;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 5rem;
+  letter-spacing: 0.7rem;
+  font-size: 2.5rem;
+}
+
+#objetivos .card {
+  border: none;
+  align-items: center;
+  background: none;
+}
+
+#objetivos .card-title {
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+}
+
+#objetivos .card-text {
+  text-align: center;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.SiGISU {
+  margin: 6rem 0;
+  justify-content: space-between;
+}
+
+.que-es-SiGISU h2 {
+  font-family: "Righteous", cursive;
+  color: #4b529f;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 2rem 0;
+  letter-spacing: 0.7rem;
+  font-size: 3rem;
+}
+
+.que-es-SiGISU p {
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+.que-es-SiGISU {
+  border-right: 0.3rem solid #6ac8f1;
+  padding-right: 4rem;
+}
+
+.SiGISU-beneficios img {
+  width: 40%;
+  padding: 1rem 0 0 1rem;
+}
+
+.conoce {
+  background: linear-gradient(to right, #6ac8f1, #4b529f);
+  border-radius: 1rem;
+  color: #fff;
+  padding: 0.8rem 1.2rem;
+  margin-top: 3rem;
+}
+
+.conoce img {
+  width: 5%;
+}
+
+.conoce h4 {
+  margin-bottom: 0;
+}
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 3rem;
+  display: inline-grid;
+}
+.back-to-top i {
+  color: #b6b6b6;
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+
+#contacto {
+  background-color: #6ac8f1;
+}
+.contacto {
+  padding: 8rem 0;
+  justify-content: space-between;
+}
+
+.contacto h2 {
+  font-family: "Righteous", cursive;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 5rem;
+  letter-spacing: 0.7rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+#formulario-contacto {
+  margin: 2rem 0;
+}
+
+form input,
+form label {
+  margin: 1rem 0;
+  font-weight: 600;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+input,
+textarea,
+input:focus,
+textarea:focus,
+input:active,
+textarea:active,
+input:focus-visible,
+textarea:focus-visible {
+  margin-left: 0.8rem !important;
+  border-radius: 3rem;
+  border: 0.15rem solid #6ac8f1;
+}
+
+.submit {
+  font-family: "Righteous", cursive;
+  background: linear-gradient(to right, #6ac8f1, #4b529f);
+  border: solid 0.2rem;
+  color: #fff;
+  margin: 2rem 0 0 0.8rem;
+  border-radius: 3rem;
+  padding: 1rem;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+}
+
+.submit:hover {
+  background-color: #4b529f;
+  color: #4b529f;
+  border: solid 0.2rem #4b529f;
+}
+
+footer {
+  background-color: #4b529f;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+footer i {
+  color: #fff;
+}
+
+footer p {
+  margin-bottom: 0 !important;
+  color: #fff;
+}
+
+footer a {
+  float: right;
+  margin-left: 1rem;
+  font-size: 2rem;
+}
+
+footer img {
+  width: 40%;
+}
+
+@media screen and (max-width: 992px) {
+  .navbar a {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  h2 {
+    font-size: 2rem;
+  }
+  .back-to-top {
+    right: 0;
+    display: block;
+  }
+  .back-to-top i {
+    margin-left: 1rem;
+  }
+  .que-es-SiGISU {
+    border-right: none;
+  }
+  .SiGISU-beneficios {
+    margin-top: 4rem;
+  }
+  #header img {
+    width: 90%;
+  }
+  .formulario {
+    width: 95%;
+  }
+}
